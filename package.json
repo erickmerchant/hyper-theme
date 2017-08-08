@@ -1,0 +1,26 @@
+{
+  "name": "@erickmerchant/hyper-theme",
+  "version": "0.0.0",
+  "description": "My hyper theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erickmerchant/hyper-theme.git"
+  },
+  "keywords": [
+    "hyper",
+    "hyper-theme"
+  ],
+  "author": "Erick Merchant <erickmerchant@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/erickmerchant/hyper-theme/issues"
+  },
+  "homepage": "https://github.com/erickmerchant/hyper-theme#readme",
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
