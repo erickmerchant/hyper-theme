@@ -1,12 +1,12 @@
-const foregroundColor = '#FAFAFA'
+const foregroundColor = '#fafafa'
 const backgroundColor = 'hsla(0, 0%, 0%, 0.25)'
 const red = '#ff4c6a'
 const yellow = '#ffe97f'
-const green = '#94ff7f'
+const green = '#7fffaa'
 const cyan = '#4cffe1'
 const blue = '#4cc3ff'
-const magenta = '#e14cff'
-const gray = '#BFBFBF'
+const magenta = '#ff4cc3'
+const gray = '#bfbfbf'
 
 exports.decorateConfig = (config) => Object.assign({}, config, {
   fontSize: 16,
