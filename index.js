@@ -5,7 +5,7 @@ const yellow = '#ffe97f'
 const green = '#7fffaa'
 const cyan = '#4cffe1'
 const blue = '#4cc3ff'
-const magenta = '#ff4cc3'
+const magenta = '#ff66cc'
 const gray = '#bfbfbf'
 
 exports.decorateConfig = (config) => Object.assign({}, config, {
