@@ -1,11 +1,11 @@
 const foregroundColor = '#fafafa'
 const backgroundColor = 'hsla(0, 0%, 0%, 0.25)'
-const red = '#ff667f'
-const yellow = '#ffe566'
-const green = '#66ff99'
-const cyan = '#66ffe5'
-const blue = '#66cbff'
-const magenta = '#ff66cc'
+const red = '#ff4c6a'
+const yellow = '#ffe14c'
+const green = '#4cff88'
+const cyan = '#4cffe1'
+const blue = '#4cc3ff'
+const magenta = '#ff4cc3'
 const gray = '#bfbfbf'
 
 exports.decorateConfig = (config) => Object.assign({}, config, {
