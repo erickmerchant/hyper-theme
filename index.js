@@ -8,8 +8,8 @@ const blue = '#4cc3ff'
 const magenta = '#ff4cc3'
 const gray = '#bfbfbf'
 
-exports.decorateConfig = (config) => Object.assign({}, config, {
-  colors: {
+exports.decorateConfig = (config) => {
+  config.colors = {
     black,
     red,
     green,
@@ -27,4 +27,6 @@ exports.decorateConfig = (config) => Object.assign({}, config, {
     lightCyan: cyan,
     lightWhite: white
   }
-})
+
+  return config
+}
