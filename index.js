@@ -1,5 +1,5 @@
-const foregroundColor = '#fafafa'
-const backgroundColor = 'hsla(0, 0%, 0%, 0.25)'
+const white = '#fafafa'
+const black = '#222'
 const red = '#ff4c6a'
 const yellow = '#ffe14c'
 const green = '#4cff88'
@@ -9,20 +9,15 @@ const magenta = '#ff4cc3'
 const gray = '#bfbfbf'
 
 exports.decorateConfig = (config) => Object.assign({}, config, {
-  fontSize: 16,
-  cursorColor: foregroundColor,
-  cursorShape: 'BEAM',
-  backgroundColor,
-  foregroundColor,
   colors: {
-    black: backgroundColor,
+    black,
     red,
     green,
     yellow,
     blue,
     magenta,
     cyan,
-    white: foregroundColor,
+    white,
     lightBlack: gray,
     lightRed: red,
     lightGreen: green,
@@ -30,6 +25,6 @@ exports.decorateConfig = (config) => Object.assign({}, config, {
     lightBlue: blue,
     lightMagenta: magenta,
     lightCyan: cyan,
-    lightWhite: foregroundColor
+    lightWhite: white
   }
 })
