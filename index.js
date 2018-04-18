@@ -28,5 +28,7 @@ exports.decorateConfig = (config) => {
     lightWhite: white
   }
 
+  console.log(config)
+
   return config
 }
